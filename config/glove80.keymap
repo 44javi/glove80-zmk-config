@@ -300,10 +300,14 @@
 /* Automatically generated macro definitions */
 / {
     macros {
-
+        dot_dot: dot_dot {
+            label = "DOT_DOT";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp DOT>;
+        };
     };
 };
-
 /* Automatically generated behavior definitions */
 / {
     behaviors {
